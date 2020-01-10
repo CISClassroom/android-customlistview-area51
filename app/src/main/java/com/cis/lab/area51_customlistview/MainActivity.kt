@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             }
             if (position == 1) {
                 Toast.makeText(this@MainActivity, "Tiyapon Profile", Toast.LENGTH_LONG).show()
-                val changePage = Intent(this, PrompatActivity::class.java)
+                val changePage = Intent(this, TiyaponActivity::class.java)
                 startActivity(changePage)
             }
             if (position == 2) {
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         }
             if(position == 4){
                 Toast.makeText(this@MainActivity,"Pornsil Profile",Toast.LENGTH_LONG).show()
-                val changePage = Intent(this, PrompatActivity::class.java)
+                val changePage = Intent(this, PornsilActivity::class.java)
                 startActivity(changePage)
             }
 //        }
