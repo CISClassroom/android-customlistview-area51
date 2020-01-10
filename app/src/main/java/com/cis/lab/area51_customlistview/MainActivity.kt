@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
                 startActivity(changePage)
             }
             if(position == 3){
-                Toast.makeText(this@MainActivity,"Sikaret Profile",Toast.LENGTH_LONG).show()
-                val changePage = Intent(this, PrompatActivity::class.java)
+                Toast.makeText(this@MainActivity,"Sikharet Profile",Toast.LENGTH_LONG).show()
+                val changePage = Intent(this, SikharetActivity::class.java)
                 startActivity(changePage)
         }
             if(position == 4){
