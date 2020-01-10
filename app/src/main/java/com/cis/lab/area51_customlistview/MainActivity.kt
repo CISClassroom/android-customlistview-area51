@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             }
             if (position == 2) {
                 Toast.makeText(this@MainActivity, "Narongsuek Profile", Toast.LENGTH_LONG).show()
-                val changePage = Intent(this, PrompatActivity::class.java)
+                val changePage = Intent(this, NarongsuekActivity::class.java)
                 startActivity(changePage)
             }
             if(position == 3){
